@@ -44,7 +44,7 @@ def get_manga_info():
     # 寻找最后一页页码
     last_page = fav_page.xpath('/html/body/div[4]/div/div[2]/div[2]/div//a[5]/text()')
 
-    # 遍历所有页码上的说所有漫画
+    # 遍历所有页码上的所有漫画
     for page in range(1, int(last_page[0]) + 1):
         print('第%s页'%page)
         page_result = page_parse('https://wnacg.com/users-users_fav-page-%s-c-0.html'%page)
