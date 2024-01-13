@@ -1,2 +1,3 @@
 # wnacg_fav_deduplication
-wnacg收藏夹去重
+## 自用
+给wnacg的收藏夹去重
