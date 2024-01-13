@@ -70,9 +70,9 @@ if __name__ == '__main__':
     db = pymysql.connect(
     host = '127.0.0.1',
     port = 3306,
-    user = 'root',
-    password = '1356105591WYH.',
-    database = 'nacg_fav_count',
+    user = '',
+    password = '',
+    database = '',
     charset = 'utf8')
     cursor = db.cursor()
     get_manga_info()
