@@ -8,15 +8,15 @@ session = requests.Session()
 
 # 请求头
 headers = {
-    'Cookie' : '',
+    'Cookie' : '', # 填入cookie
     'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
 }
 
 # 表单信息
 form_data = {
     "normal": "1",
-    "login_name": "",
-    "login_pass": ""
+    "login_name": "", # 填入用户名
+    "login_pass": "", # 填入密码 
     }
 
 def login():
